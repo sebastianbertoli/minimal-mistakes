@@ -1,11 +1,6 @@
 ---
 title: "Where people stop - extracting stop-locations from GPS data"
-# date:   2017-12-01 16:00:00 -0600
-header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  og_image: /assets/images/page-header-og-image.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  cta_url: "https://unsplash.com"
+date:   2017-12-01 16:00:00 -0600
 categories:
   - Layout
   - Uncategorized
