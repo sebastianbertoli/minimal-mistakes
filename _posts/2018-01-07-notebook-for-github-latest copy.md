@@ -13,100 +13,7 @@ tags:
 from IPython.core.display import HTML
 HTML(open("custom_styles.css", "r").read())
 ```
-
-
-
-
-<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
-<style>
-
-    .left {
-        float: left;
-        border: 0px solid #BDBDBD;
-        background: #FFF;
-        padding: 0px;
-        margin:5px;
-    }
-
-    .right {
-        float: right;
-        width: 200px;
-        border: 0px solid #BDBDBD;
-        background: #FFF;
-        padding: 5px;
-        margin:5px;
-    }
-
-    figcaption{
-    text-align:center;
-    }
-
-    div.cell{
-        width:800px;
-        margin-left:10% !important;
-        margin-right:auto;
-    }
-    h1 {
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    }
-    h2 {
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    }
-    h3{
-		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        margin-top:12px;
-        margin-bottom: 3px;
-       }
-	h4{
-		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-       }
-    h5 {
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    }	   
-    div.text_cell_render{
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        color: #222; 
-        line-height: 150%;
-        font-size: 120%;
-        width:600px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .CodeMirror{
-            font-family: "Source Code Pro", "Menlo", "Monaco", monospace;
-			font-size: 100%;
-    }
-/*    .prompt{
-        display: None;
-    }*/
-    .text_cell_render h1 {
-        font-weight: 200;
-        font-size: 30pt;
-		line-height: 100%;
-        color:#CD2305;
-        margin-bottom: 0.5em;
-        margin-top: 0.5em;
-        display: block;
-    }	
-    .text_cell_render h5 {
-        font-weight: 300;
-        font-size: 16pt;
-        color: #CD2305;
-        font-style: italic;
-        margin-bottom: .5em;
-        margin-top: 0.5em;
-        display: block;
-    }
-    
-    .warning{
-        color: rgb( 240, 20, 20 )
-        }  
-</style>
-
-
-
+<!-- 
 <a id='beginning'></a>
 # Where people stay - extracting destinations from GPS data
 <p> Author: [Sebastian Bertoli](https://www.sebastianbertoli.net) <br> Date: 01.01.2018</p>
@@ -735,4 +642,4 @@ My thanks go to Marco de Nadai and Lorenzo Lucchini for their insights, guidance
 ## References
 <a id='hariharan2004'></a> [1] Hariharan R., Toyama K. (2004) [Project Lachesis: Parsing and Modeling Location Histories.](https://link.springer.com/chapter/10.1007/978-3-540-30231-5_8#citeas) In: Egenhofer M.J., Freksa C., Miller H.J. (eds) Geographic Information Science. GIScience 2004. Lecture Notes in Computer Science, vol 3234. Springer, Berlin, Heidelberg
 
-[Back to top](#beginning)
+[Back to top](#beginning) -->
