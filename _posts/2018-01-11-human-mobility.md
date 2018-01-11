@@ -1,10 +1,11 @@
 ---
-title: "New test"
+title: "Where people stay - extracting destinations from GPS data"
 excerpt_separator: "<!--more-->"
 categories:
-  - Uncategorized
+  - Projects
 tags:
-  - Post Formats
+  - mobility
+toc: true
 ---
 
 ```python
