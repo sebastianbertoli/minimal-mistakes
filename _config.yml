@@ -84,7 +84,9 @@ analytics:
 author:
   name             : "Sebastian Bertoli"
   avatar           : "/assets/images/portrait.jpg"
-  bio              : "aspiring data scientist //  cycling afficionado"
+  bio              : "aspiring data scientist //
+  
+                      cycling afficionado"
   location         : "Europe"
   email            : 
   uri              :
