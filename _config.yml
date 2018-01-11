@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : ""
 title_separator          : "-"
 name                     : "Sebastian Bertoli"
-description              : "An amazing website."
+description              : "Sebastian's personal website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -84,9 +84,9 @@ analytics:
 author:
   name             : "Sebastian Bertoli"
   avatar           : "/assets/images/portrait.jpg"
-  bio              : "Junior Data Scientist"
+  bio              : "Aspiring data scientist and cycling afficionado"
   location         : "Europe"
-  email            : "public.sebastian@mailbox.org"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -106,7 +106,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/sebasbert2017"
   vine             :
   weibo            :
   xing             :
