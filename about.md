@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: ""
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 last_modified_at: 2017-11-06T16:27:14-05:00
 toc: true
@@ -10,6 +10,5 @@ toc: false
 
 **Hello.** I am a data science and machine learning enthusiast open to new opportunities. Fancy a coffee? Drop me a line!
 
-[E-Mail](mail&#116;&#111;&#58;p&#117;&#37;62li&#99;&#37;2&#69;%73e&#37;6&#50;&#97;st&#105;&#97;n&#64;m&#37;61ilbo&#120;&#46;o%72g'>public&#46;sebastian&#64;&#109;&#97;ilbox&#46;org) [Download CV](/assets/documents/sebastian-bertoli-cv-public.pdf)
-
+[E-Mail](mail&#116;&#111;&#58;p&#117;&#37;62li&#99;&#37;2&#69;%73e&#37;6&#50;&#97;st&#105;&#97;n&#64;m&#37;61ilbo&#120;&#46;o%72g'>public&#46;sebastian&#64;&#109;&#97;ilbox&#46;org)     [Download CV](/assets/documents/sebastian-bertoli-cv-public.pdf)
 
