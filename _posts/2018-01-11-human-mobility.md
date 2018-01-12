@@ -113,7 +113,7 @@ py.iplot(fig_datsample, filename='fig_datsample')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/11.embed" height="340px" width="680px"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/11.embed" height="340px" width="600px"></iframe>
 
 
 
@@ -130,7 +130,7 @@ py.iplot(fig_oneuser, filename='fig_oneuser')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/17.embed" height="340px" width="680px"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/17.embed" height="340px" width="600px"></iframe>
 
 
 
@@ -220,7 +220,7 @@ py.iplot(fig_stops, filename='fig_stops')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/19.embed" height="340px" width="680px"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/19.embed" height="340px" width="600px"></iframe>
 
 
 
@@ -441,7 +441,7 @@ py.iplot(fig_destinations, filename='fig_destinations')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/21.embed" height="340px" width="680px"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/21.embed" height="340px" width="600px"></iframe>
 
 
 
@@ -490,7 +490,7 @@ py.iplot(fig_destinations_all, filename='fig_destinations')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/21.embed" height="340px" width="680px"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~public.sebastian/21.embed" height="340px" width="600px"></iframe>
 
 
 

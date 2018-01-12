@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Blog"
+  - title: "Home"
     url: /
+  - title: "Projects"
+    url: 
   - title: "About"
     url: /about/
   # - title: "Sample Collections"
