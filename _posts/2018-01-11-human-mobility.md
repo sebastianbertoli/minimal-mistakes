@@ -183,67 +183,12 @@ df_stops.iloc[:3,:]
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
+|timestamp|latitude|longitude|t_start|t_end|user_id|
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |
+|2008-02-08 12:07:13|40.23100|116.69343|2008-02-08 10:57:14|2008-02-08 13:17:13|165|
+|2008-02-04 01:56:03|40.17047|116.73509|2008-02-03 23:06:04|2008-02-04 09:46:00|165|
+|2008-02-02 14:56:15|39.95174|116.44591|2008-02-02 14:56:15|2008-02-02 15:26:15|165|
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>timestamp</th>
-      <th>latitude</th>
-      <th>longitude</th>
-      <th>t_start</th>
-      <th>t_end</th>
-    </tr>
-    <tr>
-      <th>user_id</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>165</th>
-      <td>2008-02-08 12:07:13</td>
-      <td>40.23100</td>
-      <td>116.69343</td>
-      <td>2008-02-08 10:57:14</td>
-      <td>2008-02-08 13:17:13</td>
-    </tr>
-    <tr>
-      <th>165</th>
-      <td>2008-02-04 01:56:03</td>
-      <td>40.17047</td>
-      <td>116.73509</td>
-      <td>2008-02-03 23:06:04</td>
-      <td>2008-02-04 09:46:00</td>
-    </tr>
-    <tr>
-      <th>165</th>
-      <td>2008-02-02 14:56:15</td>
-      <td>39.95174</td>
-      <td>116.44591</td>
-      <td>2008-02-02 14:56:15</td>
-      <td>2008-02-02 15:26:15</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
@@ -308,67 +253,12 @@ df_clusters.iloc[:3,:]
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
+|user_id|timestamp|latitude|longitude|t_start|t_end|cluster_assignment|
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
+|165|2008-02-08 12:07:13|40.23100|116.69343|2008-02-08 10:57:14|2008-02-08 13:17:13|1|
+|165|2008-02-04 01:56:03|40.17047|116.73509|2008-02-03 23:06:04|2008-02-04 09:46:00|2|
+|165|2008-02-02 14:56:15|39.95174|116.44591|2008-02-02 14:56:15|2008-02-02 15:26:15|10|
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>user_id</th>
-      <th>timestamp</th>
-      <th>latitude</th>
-      <th>longitude</th>
-      <th>t_start</th>
-      <th>t_end</th>
-      <th>cluster_assignment</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>165</td>
-      <td>2008-02-08 12:07:13</td>
-      <td>40.23100</td>
-      <td>116.69343</td>
-      <td>2008-02-08 10:57:14</td>
-      <td>2008-02-08 13:17:13</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>165</td>
-      <td>2008-02-04 01:56:03</td>
-      <td>40.17047</td>
-      <td>116.73509</td>
-      <td>2008-02-03 23:06:04</td>
-      <td>2008-02-04 09:46:00</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>165</td>
-      <td>2008-02-02 14:56:15</td>
-      <td>39.95174</td>
-      <td>116.44591</td>
-      <td>2008-02-02 14:56:15</td>
-      <td>2008-02-02 15:26:15</td>
-      <td>10</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
@@ -407,63 +297,13 @@ df_destinations.iloc[:3,:]
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
+|user_id|timestamp|latitude|longitude|cluster_assignment|count|
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |
+|165|2008-02-08 12:07:13|40.23100|116.69343|1|5|0|
+|165|2008-02-06 00:41:55|40.17044|116.73519|2|7|1|
+|165|2008-02-05 22:11:56|40.16936|116.73150|3|1|2|
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>user_id</th>
-      <th>timestamp</th>
-      <th>latitude</th>
-      <th>longitude</th>
-      <th>cluster_assignment</th>
-      <th>count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>165</td>
-      <td>2008-02-08 12:07:13</td>
-      <td>40.23100</td>
-      <td>116.69343</td>
-      <td>1</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>165</td>
-      <td>2008-02-06 00:41:55</td>
-      <td>40.17044</td>
-      <td>116.73519</td>
-      <td>2</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>165</td>
-      <td>2008-02-05 22:11:56</td>
-      <td>40.16936</td>
-      <td>116.73150</td>
-      <td>3</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
@@ -542,48 +382,12 @@ df_rgyration.iloc[:3,:]
 
 
 
+|user_id|radius_gyration|
+|--- |--- |--- |--- |--- |
+|165|14371.809524|0|
+|185|23379.968301|1|
+|685|35287.929649|2|
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>user_id</th>
-      <th>radius_gyration</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>165</td>
-      <td>14371.809524</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>185</td>
-      <td>23379.968301</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>685</td>
-      <td>35287.929649</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
