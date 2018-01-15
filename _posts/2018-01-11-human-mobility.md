@@ -253,7 +253,7 @@ df_clusters.iloc[:3,:]
 
 
 
-|user_id|timestamp|latitude|longitude|t_start|t_end|cluster_assignment|
+|user_id|timestamp|latitude|longitude|t_start|t_end|cluster_a...|
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 |165|2008-02-08 12:07:13|40.23100|116.69343|2008-02-08 10:57:14|2008-02-08 13:17:13|1|
 |165|2008-02-04 01:56:03|40.17047|116.73509|2008-02-03 23:06:04|2008-02-04 09:46:00|2|
