@@ -81,7 +81,7 @@ delta_t_plot = (df_stats[df_stats['delta_t'] < df_stats['delta_t']
 ```
 
 
-![png](assets/images/posts/2018-01-11-human-mobility/output_9_0.png)
+![png](/assets/images/posts/2018-01-11-human-mobility/output_9_0.png)
 
 
 We observe that for most records (96th percentile) the time lapsed between subsequent recordings is within 310 seconds. This is sufficient to run our stop-detection algorithms. 
