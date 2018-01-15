@@ -93,7 +93,7 @@ Now let us get a better idea of the data by plotting a random sample on a map. W
 fig_datsample = plot_datasample(df.sample(df.shape[0]//10, random_state=10))
 plotly.offline.iplot(fig_datsample, filename='fig_datsample')
 ```
-
+![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_datsample.jpg)
 
 
 Despite having only plotted 10% of the data we still get a good idea of the area covered by the dataset. Next, let us look at a handful of data points of user 4813. 
