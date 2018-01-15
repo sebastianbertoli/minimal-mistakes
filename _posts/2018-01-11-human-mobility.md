@@ -123,7 +123,7 @@ There are three basic concepts that are important for us: the position, the stop
 <a id='destination_definition'></a><span style="color:green">&#9679;</span> **Destination**: aggregates stop locations in close proximity of each other and tells us where and how often a user has stopped there.  Similar to the position, the destination consists of a *timestamp*, a *user identifier* as well as *latitude* and *longitude* coordinates. In addition, the *visitation count* denotes the number of stops at a particular destination and *cluster_assignment* identifies the destination itself.
 
 <figure>
-    <img src="images/definitions.jpg"/> 
+    <img src="/assets/images/posts/2018-01-11-human-mobility/definitions.jpg"/> 
     <figcaption>**Figure 1**: *Definitions of the key concepts.*</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ There are three basic concepts that are important for us: the position, the stop
 Below we have pictured a fictional user's positions with associated timestamps. The user is moving from left to right starting at 8:24. Between 8:26 and 8:46 the user moves less than 50 meters in 20 minutes. Thus, the algorithm detects that the user has stopped. It picks the [medoid](https://en.wikipedia.org/wiki/Medoid) (in orange) of those three points as the stop location (8:36). The start and end-times of the stop location are 8:26 and 8:46 respectively.
 
 <figure>
-    <img src="images/stoplocation_explanation.jpg"> 
+    <img src="/assets/images/posts/2018-01-11-human-mobility/stoplocation_explanation.jpg"> 
     <figcaption>**Figure 2**: The stop detection algorithm explained.</figcaption>
 </figure>
 
@@ -267,12 +267,12 @@ Recall that we defined a [destination](#destination_definition) as the aggregati
 
 <a id='figure_3'></a>
 <figure>
-    <img src="images/locationdestination.jpg"/> 
+    <img src="/assets/images/posts/2018-01-11-human-mobility/locationdestination.jpg"/> 
     <figcaption>**Figure 3**: From stop locations to destinations.</figcaption>
 </figure>
 
 <figure class="right">
-    <img src="images/stop_locations.jpg"/> 
+    <img src="/assets/images/posts/2018-01-11-human-mobility/stop_locations.jpg"/> 
     <figcaption>Figure 4.</figcaption>
 </figure>
 To appreciate why this is useful, let us have a look at figure 4 where we have plotted some stop locations in orange (from a different dataset). The stop locations appear to form small clusters: one bigger cluster in proximity of *Building 7* on the left and two other clusters in proximity of *Building 1* and *Building 2* respectively. Finally, there are also two stop locations on *Malcolm Boulevard* at the bottom.
@@ -283,7 +283,7 @@ To aggregate the stop locations into destinations we use [Scipy's hierarchical c
 
 Figure 4 shows the difference between using a complete linkage method and a centroid linkage method using the same distance parameter. For our purpose complete linkage forms too many small clusters. In contrast, centroid linkage seems to be just right forming approximately one cluster for each building. Of course, these parameters will have to be set based on the application at hand.
 <figure class="left">
-    <img src="images/destinations_composite.jpg"/> 
+    <img src="/assets/images/posts/2018-01-11-human-mobility/destinations_composite.jpg"/> 
     <figcaption>**Figure 5:** A comparison of linkage methods for clustering GPS positions.</figcaption>
 </figure>
 
