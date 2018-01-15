@@ -103,7 +103,7 @@ Despite having only plotted 10% of the data we still get a good idea of the area
 fig_oneuser = plot_one_user(df[df['user_id'] == 4813].iloc[109:115,:])
 plotly.offline.iplot(fig_oneuser, filename='fig_oneuser')
 ```
-
+![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_oneuser.jpg)
 
 
 In the figure above we have plotted six data points. Let us first focus on the three points in the upper right corner east of the *China Foreign Affairs University*. If you zooms-in on those points, you will thee that the user has stayed in close proximity of that location from `12:41` to `12:57`. Subsequently, the users moves south (`12:58`) to *Outer Fuchengmen Street* (`13:00`) and moves west (`13:02`) until he disappears from the frame.
@@ -254,7 +254,7 @@ Congratulations! We have just successfully extracted 2557 stop locations from th
 fig_stops = plot_stops(df_stops.reset_index())
 plotly.offline.iplot(fig_stops, filename='fig_stops')
 ```
-
+![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_stops.jpg)
 
 
 
@@ -474,7 +474,7 @@ Congratulations, we now have a new dataset `df_destinations` containing the dest
 fig_destinations = plot_destinations(df_destinations)
 plotly.offline.iplot(fig_destinations, filename='fig_destinations')
 ```
-
+![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_destinations.jpg)
 
 
 On the map you can appreciate the main destinations on a per-user basis the colour intensity and the size indicate the visitation frequency (number of stop locations) at each destination.
@@ -516,9 +516,9 @@ df_destinations_all = pd.merge(df_clustermedoids_all.loc[:, temp_cols],
 ```python
 fig_destinations_all = plot_destinations(
     df_destinations_all[df_destinations_all['count'] > 1])
-plotly.offline.iplot(fig_destinations_all, filename='fig_destinations')
+plotly.offline.iplot(fig_destinations_all, filename='fig_destinations_all')
 ```
-
+![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_destinations_all.jpg)
 
 
 Well done! We now have plotted the most popular taxi destinations in Bejing based on visitation count. 
