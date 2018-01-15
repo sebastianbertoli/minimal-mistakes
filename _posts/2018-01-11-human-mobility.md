@@ -4,6 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - walkthroughs
 tags:
+toc: false
 ---
 
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
@@ -46,29 +47,7 @@ For the experiments we will use a random sample of the [T-Drive trajectory data 
 
 *Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.*
 
-Without further adue let us load and explore the data!
-
-
-```python
-import pandas as pd
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import plotly
-from plotly_helpers import *  # Plot specifications
-from lachesis import *  # Stop detection implementations
-```
-
-
-```python
-# Various notebook settings
-# plotly.offline.init_notebook_mode()
-%load_ext autoreload
-%autoreload 2
-%matplotlib inline
-mpl.rcParams['figure.dpi'] = 240
-plt.style.use('ggplot')
-```
-
+Without further adue let us load and explore the data!`
 
 ```python
 df = (pd.read_csv("data/df_sample.csv", parse_dates=["timestamp"])
@@ -102,7 +81,7 @@ delta_t_plot = (df_stats[df_stats['delta_t'] < df_stats['delta_t']
 ```
 
 
-![png](./images/2018-01-11-human-mobility/output_9_0.png)
+![png](assets/images/posts/2018-01-11-human-mobility/output_9_0.png)
 
 
 We observe that for most records (96th percentile) the time lapsed between subsequent recordings is within 310 seconds. This is sufficient to run our stop-detection algorithms. 
