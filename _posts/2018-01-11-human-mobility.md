@@ -1,6 +1,6 @@
 ---
 title: "Where people stay - extracting destinations from GPS data"
-excerpt: "This notebook showcases some of the work completed on the extraction of destinations form GPS data carried out during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/).
+excerpt: "This notebook showcases some of the work completed on the extraction of destinations form GPS data carried out during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/)."
 categories:
   - demonstrations
 tags: datascience, gps, mobility
