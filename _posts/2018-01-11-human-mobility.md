@@ -39,7 +39,7 @@ This notebook is structured as follows. First, we load and explore dataset I pre
 1. [Extracting the users' stop locations](#extract_stops)
 1. [Clustering the locations into destinations](#cluster_stops)
 
-Note: Most functions and plots are loaded from the accompanying `lachesis.py` and `plotly_helpers.py` files to avoid overloading this notebook with code. They can be found in the project's [repository(https://github.com/sebastianbertoli/Github-internship_human_mobility). [Final thoughts](#finalthoughts), [acknowledgments](#acknowledgments) and [references](#references) can be found at the bottom.
+Note: Most functions and plots are loaded from the accompanying `lachesis.py` and `plotly_helpers.py` files to avoid overloading this notebook with code. They can be found in the project's [repository](https://github.com/sebastianbertoli/Github-internship_human_mobility). [Final thoughts](#finalthoughts), [acknowledgments](#acknowledgments) and [references](#references) can be found at the bottom.
 {: .notice}
 
 <a id='eda'></a>
