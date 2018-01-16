@@ -10,7 +10,7 @@ sidebar: true
 
 ## Extracting destinations from GPS data
 
-[!jpg](/assets/images/projects.md/readme_teaser.jpg)
+![jpg](/assets/images/projects.md/readme_teaser.jpg)
 
 This project contains a fast Python implementation of algorithms
 proposed in [[1]](#hariharan2004) to extract so-called stop locations
