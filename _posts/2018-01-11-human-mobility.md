@@ -23,12 +23,15 @@ toc: false
 </style>
 
 <a id='beginning'></a>
+This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
+{: .notice}
 
+# Introduction
 This notebook showcases some of the work completed during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So called stop-locations.
 
 To extract stop-locations from GPS data I implemented and tested two algorithms: [ST-DBSCAN](https://www.sciencedirect.com/science/article/pii/S0169023X06000218) and an algorithm proposed by Kentaro and Toyama in [[1]](#hariharan2004). The focus of this notebook will be the latter.
 
-# Outline
+## Outline
 
 This notebook is structured as follows. First, we load and explore dataset I prepared for this experiment. Second, we process it and extract its stop locations. Third, we proceed with clustering the stop locations into so-called destinations (more on this later) In short:
 
