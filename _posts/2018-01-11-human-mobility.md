@@ -142,6 +142,8 @@ There are three basic concepts that are important for us: the position, the stop
 ![jpg](/assets/images/posts/2018-01-11-human-mobility/definitions.jpg)
 *Figure 1: Definitions of the key concepts.*
 
+{% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/definitions.jpg" alt="Figure 1: Definitions of the key concepts." caption="Figure 1: Definitions of the key concepts." %}
+
 ## The stop location algorithm explained
 
 Below we have pictured a fictional user's positions with associated timestamps. The user is moving from left to right starting at 8:24. Between 8:26 and 8:46 the user moves less than 50 meters in 20 minutes. Thus, the algorithm detects that the user has stopped. It picks the [medoid](https://en.wikipedia.org/wiki/Medoid) (in orange) of those three points as the stop location (8:36). The start and end-times of the stop location are 8:26 and 8:46 respectively.
