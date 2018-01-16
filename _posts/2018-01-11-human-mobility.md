@@ -2,8 +2,11 @@
 title: "Where people stay - extracting destinations from GPS data"
 excerpt: "This notebook showcases some on the extraction of destinations from GPS data carried out during my summer 2017 internship."
 categories:
-  - demonstrations
-tags: datascience, gps, mobility
+  - demo
+tags: 
+  - datascience
+  - gps
+  - mobility
 toc: false
 ---
 
