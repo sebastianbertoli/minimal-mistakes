@@ -23,7 +23,7 @@ toc: false
 </style>
 
 <a id='beginning'></a>
-## Introduction
+# Introduction
 
 This notebook showcases some of the work completed during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So called stop-locations.
 
