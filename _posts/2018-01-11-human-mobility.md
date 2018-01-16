@@ -27,7 +27,7 @@ toc: false
 
 <a id='beginning'></a>
 Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
-{: .notice--primary}
+{: .notice--info}
 
 # Introduction
 This notebook showcases some of the work completed during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So called stop-locations.
@@ -43,7 +43,7 @@ This notebook is structured as follows. First, we load and explore dataset I pre
 1. [Clustering the locations into destinations](#cluster_stops)
 
 Note: Most functions and plots are loaded from the accompanying `lachesis.py` and `plotly_helpers.py` files to avoid overloading this notebook with code. They can be found in the project's [repository](https://github.com/sebastianbertoli/Github-internship_human_mobility). [Final thoughts](#finalthoughts), [acknowledgments](#acknowledgments) and [references](#references) can be found at the bottom.
-{: .notice--primary}
+{: .notice--info}
 
 <a id='eda'></a>
 
@@ -54,7 +54,7 @@ The proliferation of smartphones with GPS sensors has allowed to capture people'
 For the experiments we will use a random sample of the [T-Drive trajectory data sample](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/). The sample contains one week's worth of GPS data collected from 100 taxis driving in Bejing.
 
 Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.
-{: .notice--primary}
+{: .notice--info}
 
 Without further adue let us load and explore the data!
 
@@ -378,7 +378,7 @@ df_rgyration.iloc[:3,:]
 
 Using the radius of gyration measure we could now start characterising the mobility patterns of our users more precisely... but let that be the topic for a new notebook. :-)
 
-**Thanks for reading this far**. If you found this notebook useful feel free to [follow me on the web](http://www.sebastianbertoli.net/). Comments and feedback are always appreciated!{: .notice--primary}
+**Thanks for reading this far**. If you found this notebook useful feel free to [follow me on the web](http://www.sebastianbertoli.net/). Comments and feedback are always appreciated!{: .notice--info}
 
 <a id='acknowledgments'></a>
 
