@@ -229,7 +229,7 @@ To aggregate the stop locations into destinations we use [Scipy's hierarchical c
 
 Figure 4 shows the difference between using a complete linkage method and a centroid linkage method using the same distance parameter. For our purpose complete linkage forms too many small clusters. In contrast, centroid linkage seems to be just right forming approximately one cluster for each building. Of course, these parameters will have to be set based on the application at hand.
 
-{% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/destinations_composite.jpg" alt="Figure 4: A comparison of linkage methods for clustering GPS positions." %}
+{% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/destinations_composite.jpg" alt="Figure 4: A comparison of linkage methods for clustering GPS positions." caption="Figure 4: A comparison of linkage methods for clustering GPS positions." %}
 
 ## Running the clustering algorithm on the stop locations data
 
