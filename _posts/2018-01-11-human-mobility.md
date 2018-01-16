@@ -50,7 +50,23 @@ For the experiments we will use a random sample of the [T-Drive trajectory data 
 Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.
 {: .notice}
 
-Without further adue let us load and explore the data!`
+Without further adue let us load and explore the data!
+
+```python
+import pandas as pd
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import plotly
+from plotly_helpers import *  # Plot specifications
+from lachesis import *  # Stop detection implementations
+# Various notebook settings
+plotly.offline.init_notebook_mode()
+%load_ext autoreload
+%autoreload 2
+%matplotlib inline
+mpl.rcParams['figure.dpi'] = 240
+plt.style.use('ggplot')
+```
 
 ```python
 df = (pd.read_csv("data/df_sample.csv", parse_dates=["timestamp"])
@@ -70,7 +86,7 @@ print(df.iloc[:3,:],
 
 As we can see our sample dataset contains of 111,712 records coming from 100 different users. Each record has a `user_id` identifying the user, a `timestamp` and a `longitude` as well as a `latitude` value. 
 
-One important property of GPS data is the time elapsed between subsequent observations denoted as $\delta t$. Let's quickly calculate it and plot its distribution.
+One important property of GPS data is the time elapsed between subsequent observations denoted as delta t. Let's quickly calculate it and plot its distribution.
 
 ```python
 df_stats = pd.DataFrame()
@@ -207,9 +223,8 @@ Recall that we defined a [destination](#destination_definition) as the aggregati
 <figure class="right">
     <img src="/assets/images/posts/2018-01-11-human-mobility/stop_locations.jpg"/> 
 </figure>
-*Figure 4*
 
-To appreciate why this is useful, let us have a look at figure 4 where we have plotted some stop locations in orange (from a different dataset). The stop locations appear to form small clusters: one bigger cluster in proximity of *Building 7* on the left and two other clusters in proximity of *Building 1* and *Building 2* respectively. Finally, there are also two stop locations on *Malcolm Boulevard* at the bottom.
+To appreciate why this is useful, let us have a look at the figure on the right where we have plotted some stop locations in orange (from a different dataset). The stop locations appear to form small clusters: one bigger cluster in proximity of *Building 7* on the left and two other clusters in proximity of *Building 1* and *Building 2* respectively. Finally, there are also two stop locations on *Malcolm Boulevard* at the bottom.
 
 What we are actually interested in is the *destination* where a user has stopped and not necessarily the exact *GPS position* recorded. For instance, the group of stop locations surrounding *Building 7* should be regarded as one destination. Similarly, those surrounding *Building 1* and *Building 2* respectively. In other words, we need to cluster or aggregate the stop locations into destinations.
 
