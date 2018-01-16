@@ -36,7 +36,8 @@ This notebook is structured as follows. First, we load and explore dataset I pre
 1. [Extracting the users' stop locations](#extract_stops)
 1. [Clustering the locations into destinations](#cluster_stops)
 
-*Note: Most functions and plots are loaded from the accompanying `lachesis.py` and `plotly_helpers.py` files to avoid overloading this notebook with code. Make sure they are in the same location. [Final thoughts](#finalthoughts), [acknowledgments](#acknowledgments) and [references](#references) can be found at the bottom.*
+Note: Most functions and plots are loaded from the accompanying `lachesis.py` and `plotly_helpers.py` files to avoid overloading this notebook with code. Make sure they are in the same location. [Final thoughts](#finalthoughts), [acknowledgments](#acknowledgments) and [references](#references) can be found at the bottom.
+{: .notice}
 
 <a id='eda'></a>
 ## Exploring the Data 
@@ -44,7 +45,8 @@ The proliferation of smartphones with GPS sensors has allowed to capture people'
 
 For the experiments we will use a random sample of the [T-Drive trajectory data sample](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/). The sample contains one week's worth of GPS data collected from 100 taxis driving in Bejing.
 
-Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.{: .notice}
+Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.
+{: .notice}
 
 Without further adue let us load and explore the data!`
 
