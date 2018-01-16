@@ -26,6 +26,6 @@ gallery:
 ![jpg](/assets/images/projects/readme_teaser.jpg)
 
 This project was carried out during my summer 2017 internship at the Bruno Kessler foundation. The goal was to implement a fast algorithm that could
-extract destinations (places where people stay) from GPS data. On the blog I have posted [a static demo]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %} of the Jupyter Notebook. If you would like to run to explore the demo interactively please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
+extract destinations (places where people stay) from GPS data. On the blog I have posted [a static demo]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %}) of the Jupyter Notebook. If you would like to run to explore the demo interactively please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
 
 <!-- {% include gallery caption="This is a sample gallery with **Markdown support**." %} -->
