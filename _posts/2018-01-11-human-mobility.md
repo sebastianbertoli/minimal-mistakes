@@ -40,7 +40,7 @@ Note: Most functions and plots are loaded from the accompanying `lachesis.py` an
 {: .notice}
 
 <a id='eda'></a>
-## Exploring the Data 
+## Exploring the Data
 The proliferation of smartphones with GPS sensors has allowed to capture people's movements in regular time intervals and at large scale. Once the GPS data is collected, it can be further processed for research purposes. The unprocessed data typically consists of a timestamp, some type of user or device identifier and longitude-latitude coordinates.
 
 For the experiments we will use a random sample of the [T-Drive trajectory data sample](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/). The sample contains one week's worth of GPS data collected from 100 taxis driving in Bejing.
@@ -147,7 +147,6 @@ I implemented the algorithm with parallel processing in mind for further speed g
 
 Now, let us run the cell below to extract the stop locations for each user! It should take less than 30 seconds to complete.
 
-
 ```python
 # Parameters
 roaming_distance = meters2degrees(50) # 50 meters converted to degrees
@@ -178,10 +177,6 @@ df_stops.iloc[:3,:]
     Processing user 100 of 100.
     Number of stop locations: 2557
 
-
-
-
-
 |timestamp|latitude|longitude|t_start|t_end|user_id|
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 |2008-02-08 12:07:13|40.23100|116.69343|2008-02-08 10:57:14|2008-02-08 13:17:13|165|
@@ -208,11 +203,8 @@ Next, we will aggregate the stop locations into destinations.
 ### Why do we need destinations?
 Recall that we defined a [destination](#destination_definition) as the aggregation of one or several stop locations that are in close proximity to each other. Basically, we want to move from a stop locations representation to a destinations representation (figure 3).
 
-<a id='figure_3'></a>
-<figure>
-    <img src="/assets/images/posts/2018-01-11-human-mobility/locationdestination.jpg"/> 
-    <figcaption>**Figure 3**: From stop locations to destinations.</figcaption>
-</figure>
+![jpg](/assets/images/posts/2018-01-11-human-mobility/locationdestination.jpg)
+*Figure 3: From stop locations to destinations.*
 
 <figure class="right">
     <img src="/assets/images/posts/2018-01-11-human-mobility/stop_locations.jpg"/> 
