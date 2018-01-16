@@ -1,12 +1,12 @@
 ---
 title: "Where people stay - extracting destinations from GPS data"
+excerpt_separator: "<!--more-->"
 categories:
   - walkthroughs
 tags:
 toc: false
 ---
 
-<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
 <style>
     .right {
         float: right;
@@ -392,7 +392,7 @@ df_rgyration.iloc[:3,:]
 
 Using the radius of gyration measure we could now start characterising the mobility patterns of our users more precisely... but let that be the topic for a new notebook. :-)
 
-**Thanks for reading this far**. If you found this notebook useful feel free to [follow me on the web](http://www.sebastianbertoli.net/). Comments and feedback are always appreciated!
+**Thanks for reading this far**. If you found this notebook useful feel free to [follow me on the web](http://www.sebastianbertoli.net/). Comments and feedback are always appreciated!{: .notice}
 
 <a id='acknowledgments'></a>
 ## Acknowledgments
