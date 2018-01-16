@@ -1,6 +1,5 @@
 ---
 title: "Where people stay - extracting destinations from GPS data"
-excerpt_separator: "<!--more-->"
 categories:
   - walkthroughs
 tags:
@@ -45,7 +44,7 @@ The proliferation of smartphones with GPS sensors has allowed to capture people'
 
 For the experiments we will use a random sample of the [T-Drive trajectory data sample](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/). The sample contains one week's worth of GPS data collected from 100 taxis driving in Bejing.
 
-*Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.*
+Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.{: .notice}
 
 Without further adue let us load and explore the data!`
 
