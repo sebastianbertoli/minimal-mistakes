@@ -131,10 +131,8 @@ There are three basic concepts that are important for us: the position, the stop
 ### The stop location algorithm explained
 Below we have pictured a fictional user's positions with associated timestamps. The user is moving from left to right starting at 8:24. Between 8:26 and 8:46 the user moves less than 50 meters in 20 minutes. Thus, the algorithm detects that the user has stopped. It picks the [medoid](https://en.wikipedia.org/wiki/Medoid) (in orange) of those three points as the stop location (8:36). The start and end-times of the stop location are 8:26 and 8:46 respectively.
 
-<figure>
-    <img src="/assets/images/posts/2018-01-11-human-mobility/stoplocation_explanation.jpg"> 
-    <figcaption>**Figure 2**: The stop detection algorithm explained.</figcaption>
-</figure>
+![jpg](/assets/images/posts/2018-01-11-human-mobility/stoplocation_explanation.jpg)
+**Figure 2**: The stop detection algorithm explained.
 
 The algorithm has two parameters which are dependent on the application.
 
@@ -202,9 +200,8 @@ plotly.offline.iplot(fig_stops, filename='fig_stops')
 ```
 ![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_stops.jpg)
 
-
-
 Next, we will aggregate the stop locations into destinations.
+
  <a id='cluster_stops'></a>
 ## Aggregate stop locations into destinations
 
