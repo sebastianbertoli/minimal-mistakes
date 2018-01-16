@@ -1,6 +1,6 @@
 ---
 title: "Where people stay - extracting destinations from GPS data"
-excerpt: "This notebook showcases some of the work completed on the extraction of destinations form GPS data carried out during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/)."
+excerpt: "This notebook showcases some on the extraction of destinations from GPS data carried out during my summer 2017 internship."
 categories:
   - demonstrations
 tags: datascience, gps, mobility
@@ -23,7 +23,7 @@ toc: false
 </style>
 
 <a id='beginning'></a>
-Note:   This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
+Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
 {: .notice}
 
 # Introduction
@@ -39,7 +39,7 @@ This notebook is structured as follows. First, we load and explore dataset I pre
 1. [Extracting the users' stop locations](#extract_stops)
 1. [Clustering the locations into destinations](#cluster_stops)
 
-Note: Most functions and plots are loaded from the accompanying `lachesis.py` and `plotly_helpers.py` files to avoid overloading this notebook with code. Make sure they are in the same location. [Final thoughts](#finalthoughts), [acknowledgments](#acknowledgments) and [references](#references) can be found at the bottom.
+Note: Most functions and plots are loaded from the accompanying `lachesis.py` and `plotly_helpers.py` files to avoid overloading this notebook with code. They can be found in the project's [repository(https://github.com/sebastianbertoli/Github-internship_human_mobility). [Final thoughts](#finalthoughts), [acknowledgments](#acknowledgments) and [references](#references) can be found at the bottom.
 {: .notice}
 
 <a id='eda'></a>
