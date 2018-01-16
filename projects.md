@@ -12,8 +12,5 @@ sidebar: true
 
 ![jpg](/assets/images/projects.md/readme_teaser.jpg)
 
-This project contains a fast Python implementation of algorithms
-proposed in [[1]](#hariharan2004) to extract so-called stop locations
-from GPS data. The project also contains some sample data and a
-detailed Jupyter notebook that showcases the work. You can preview the notebook [here](https://nbviewer.jupyter.org/github/sebastianbertoli/Github-internship_human_mobility/blob/master/Notebook%20for%20github%20latest%20edition.ipynb).
-
+This project was carried out during my summer 2017 internship at the Bruno Kessler foundation. The goal was to implement a fast algorithm that could
+extract destinations (places where people stay) from GPS data. A static demonstration can be found [here](\_posts\2018-01-11-human-mobility.md). If you would like to run to explore the demonstration interactively please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
