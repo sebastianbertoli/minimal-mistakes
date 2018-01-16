@@ -215,6 +215,8 @@ Next, we will aggregate the stop locations into destinations.
 
 Recall that we defined a [destination](#destination_definition) as the aggregation of one or several stop locations that are in close proximity to each other. Basically, we want to move from a stop locations representation to a destinations representation (figure 3).
 
+<a id='figure_3'></a>
+
 {% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/locationdestination.jpg" alt="Figure 3: From stop locations to destinations." caption="Figure 3: From stop locations to destinations." %}
 
 <figure class="right">
