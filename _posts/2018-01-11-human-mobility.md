@@ -2,8 +2,8 @@
 title: "Where people stay - extracting destinations from GPS data"
 excerpt_separator: "<!--more-->"
 categories:
-  - walkthroughs
-tags:
+  - demonstrations
+tags: datascience, gps, mobility
 toc: false
 ---
 
@@ -23,7 +23,7 @@ toc: false
 </style>
 
 <a id='beginning'></a>
-This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
+Note:   This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
 {: .notice}
 
 # Introduction
