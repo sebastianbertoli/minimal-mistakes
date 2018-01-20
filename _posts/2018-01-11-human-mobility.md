@@ -36,7 +36,7 @@ To extract stop-locations from GPS data I implemented and tested two algorithms:
 
 ## Outline
 
-This notebook is structured as follows. First, we load and explore dataset I prepared for this experiment. Second, we process it and extract its stop locations. Third, we proceed with clustering the stop locations into so-called destinations (more on this later) In short:
+This notebook is structured as follows. First, we load and explore the dataset I prepared for this experiment. Second, we process it and extract its stop locations. Third, we proceed with clustering the stop locations into so-called destinations (more on this later) In short:
 
 1. [Exploring the dataset](#eda)
 1. [Extracting the users' stop locations](#extract_stops)
@@ -49,14 +49,14 @@ Note: Most functions and plots are loaded from the accompanying `lachesis.py` an
 
 # Exploring the Data
 
-The proliferation of smartphones with GPS sensors has allowed to capture people's movements in regular time intervals and at large scale. Once the GPS data is collected, it can be further processed for research purposes. The unprocessed data typically consists of a timestamp, some type of user or device identifier and longitude-latitude coordinates.
+The proliferation of smartphones with GPS sensors has allowed us to capture people's movements in regular time intervals and at large scale. Once the GPS data is collected, it can be further processed for research purposes. The unprocessed data typically consists of a timestamp, some type of user or device identifier and longitude-latitude coordinates.
 
-For the experiments we will use a random sample of the [T-Drive trajectory data sample](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/). The sample contains one week's worth of GPS data collected from 100 taxis driving in Bejing.
+For the experiments we will use a random sample of the [T-Drive trajectory data sample](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/). The sample contains one week's worth of GPS data collected from 100 taxis driving in Beijing.
 
 Note: Before running the experiments please make sure that you have all the libraries listed in `requirements.txt` installed.
 {: .notice--info}
 
-Without further adue let us load and explore the data!
+Without further ado let us load and explore the data!
 
 ```python
 import pandas as pd
@@ -107,7 +107,7 @@ delta_t_plot = (df_stats[df_stats['delta_t'] < df_stats['delta_t']
 
 We observe that for most records (96th percentile) the time lapsed between subsequent recordings is within 310 seconds. This is sufficient to run our stop-detection algorithms. 
 
-Now let us get a better idea of the data by plotting a random sample on a map. We use the popular [Plotly library](https://plot.ly) for this. The plot is fully interactive so feel free explore the data on the map. 
+Now let us get a better idea of the data by plotting a random sample on a map. We use the popular [Plotly library](https://plot.ly) for this. The plot is fully interactive so feel free to explore the data on the map. 
 
 ```python
 fig_datsample = plot_datasample(df.sample(df.shape[0]//10, random_state=10))
@@ -125,7 +125,7 @@ plotly.offline.iplot(fig_oneuser, filename='fig_oneuser')
 
 ![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_oneuser.jpg)
 
-In the figure above we have plotted six data points. Let us first focus on the three points in the upper right corner east of the *China Foreign Affairs University*. If you zooms-in on those points, you will thee that the user has stayed in close proximity of that location from `12:41` to `12:57`. Subsequently, the users moves south (`12:58`) to *Outer Fuchengmen Street* (`13:00`) and moves west (`13:02`) until he disappears from the frame.
+In the figure above we have plotted six data points. Let us first focus on the three points in the upper right corner east of the *China Foreign Affairs University*. If you zoom-in on those points, you will see that the user has stayed in close proximity of that location from `12:41` to `12:57`. Subsequently, the user moves south (`12:58`) to *Outer Fuchengmen Street* (`13:00`) and moves west (`13:02`) until he disappears from the frame.
 
 The three points in the upper right corner should be a stop location. In other words, a location where a user (in this case a taxi) has stayed for some time. Unfortunately, the dataset does not yet have this information baked-in. That is why we will add this information in the next section.
 
@@ -378,7 +378,8 @@ df_rgyration.iloc[:3,:]
 
 Using the radius of gyration measure we could now start characterising the mobility patterns of our users more precisely... but let that be the topic for a new notebook. :-)
 
-**Thanks for reading this far**. If you found this notebook useful feel free to [follow me on the web](http://www.sebastianbertoli.net/). Comments and feedback are always appreciated!{: .notice--info}
+**Thanks for reading this far**. If you found this notebook useful feel free to [follow me on the web](http://www.sebastianbertoli.net/). Comments and feedback are always appreciated!
+{: .notice--info}
 
 <a id='acknowledgments'></a>
 
