@@ -31,9 +31,9 @@ Note: This post is a static demonstration of the [destinations extraction projec
 
 # Introduction
 
-This notebook showcases some of the work completed during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So-called stop-locations.
+This notebook showcases some of the work completed during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So-called stop locations.
 
-To extract stop-locations from GPS data I implemented and tested two algorithms: [ST-DBSCAN](https://www.sciencedirect.com/science/article/pii/S0169023X06000218) and an algorithm proposed by Kentaro and Toyama in [[1]](#hariharan2004). The focus of this notebook will be the latter.
+To extract stop locations from GPS data I implemented and tested two algorithms: [ST-DBSCAN](https://www.sciencedirect.com/science/article/pii/S0169023X06000218) and an algorithm proposed by Kentaro and Toyama in [[1]](#hariharan2004). The focus of this notebook will be the latter.
 
 ## Outline
 
@@ -132,7 +132,7 @@ The three points in the upper right corner should be a stop location. In other w
 
 <a id='extract_stops'></a>
 
-# Extract the users' stop-locations
+# Extract the users' stop locations
 
 In this section we briefly explain the stop location extraction algorithm from [[1]](#hariharan2004). After that we extract all the stop locations from the sample dataset. Let us begin with some definitions. 
 
