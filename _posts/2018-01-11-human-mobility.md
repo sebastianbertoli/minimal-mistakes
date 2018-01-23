@@ -1,6 +1,6 @@
 ---
 title: "Where people stay - extracting destinations from GPS data"
-excerpt: "This notebook showcases some on the extraction of destinations from GPS data carried out during my summer 2017 internship."
+excerpt: "This notebook showcases some work I completed on the extraction of destinations from GPS data and carried out during my summer 2017 internship."
 categories:
   - demos
 tags: 
