@@ -379,7 +379,7 @@ df_rgyration.iloc[:3,:]
 
 Using the radius of gyration measure we could now start characterising the mobility patterns of our users more precisely... but let that be the topic for a new notebook. :-)
 
-**Thanks for reading this far**. If you found this notebook useful feel free to [follow me on the web](http://www.sebastianbertoli.net/). Comments and feedback are always appreciated!
+**Thank you for reading this far**. If you have found this notebook useful feel free to [follow me on GitHub](https://github.com/sebastianbertoli/). Comments and feedback are always appreciated!
 {: .notice--info}
 
 <a id='acknowledgments'></a>
