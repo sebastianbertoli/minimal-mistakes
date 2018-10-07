@@ -29,7 +29,6 @@ toc: false
 Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please click on the button below and run `Notebook for github latest edition.ipynb`. Alternatively, you can check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sebastianbertoli/Github-internship_human_mobility/master)
-
 {: .notice--info}
 
 # Introduction
