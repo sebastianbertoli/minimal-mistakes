@@ -26,12 +26,13 @@ toc: false
 </style>
 
 <a id='beginning'></a>
-Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
+Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please click on the button below and run `Notebook for github latest edition.ipynb`. Alternatively, you can check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
 {: .notice--info}
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sebastianbertoli/Github-internship_human_mobility/master)
 
 # Introduction
 
-This notebook showcases some of the work completed during my summer 2017 internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So-called stop locations.
+This notebook showcases some of the work completed during my 2017 summer internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So-called stop locations.
 
 To extract stop locations from GPS data I implemented and tested two algorithms: [ST-DBSCAN](https://www.sciencedirect.com/science/article/pii/S0169023X06000218) and an algorithm proposed by Kentaro and Toyama in [[1]](#hariharan2004). The focus of this notebook will be the latter.
 
