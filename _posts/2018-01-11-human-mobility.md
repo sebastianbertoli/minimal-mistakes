@@ -105,7 +105,7 @@ delta_t_plot = (df_stats[df_stats['delta_t'] < df_stats['delta_t']
                 .hist(bins=50, figsize=(6,2), alpha=.9, color="blue"))
 ```
 
-![png](/assets/images/posts/2018-01-11-human-mobility/output_9_0.png)
+![png](/assets/images/2018-01-11-human-mobility/output_9_0.png)
 
 We observe that for most records (96th percentile) the time lapsed between subsequent recordings is within 310 seconds. This is sufficient to run our stop-detection algorithms. 
 
@@ -116,7 +116,7 @@ fig_datsample = plot_datasample(df.sample(df.shape[0]//10, random_state=10))
 plotly.offline.iplot(fig_datsample, filename='fig_datsample')
 ```
 
-![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_datsample.jpg)
+![jpg](/assets/images/2018-01-11-human-mobility/fig_datsample.jpg)
 
 Despite having only plotted 10% of the data we still get a good idea of the area covered by the dataset. Next, let us look at a handful of data points of user 4813. 
 
@@ -125,7 +125,7 @@ fig_oneuser = plot_one_user(df[df['user_id'] == 4813].iloc[109:115,:])
 plotly.offline.iplot(fig_oneuser, filename='fig_oneuser')
 ```
 
-![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_oneuser.jpg)
+![jpg](/assets/images/2018-01-11-human-mobility/fig_oneuser.jpg)
 
 In the figure above we have plotted six data points. Let us first focus on the three points in the upper right corner east of the *China Foreign Affairs University*. If you zoom-in on those points, you will see that the user has stayed in close proximity of that location from `12:41` to `12:57`. Subsequently, the user moves south (`12:58`) to *Outer Fuchengmen Street* (`13:00`) and moves west (`13:02`) until he disappears from the frame.
 
@@ -147,13 +147,13 @@ There are three basic concepts that are important for us: the position, the stop
 
 <a id='destination_definition'></a><span style="color:green">&#9679;</span> **Destination**: aggregates stop locations in close proximity of each other and tells us where and how often a user has stopped there.  Similar to the position, the destination consists of a *timestamp*, a *user identifier* as well as *latitude* and *longitude* coordinates. In addition, the *visitation count* denotes the number of stops at a particular destination and *cluster_assignment* identifies the destination itself.
 
-{% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/definitions.jpg" alt="Figure 1: Definitions of the key concepts." caption="Figure 1: Definitions of the key concepts." %}
+{% include figure image_path="/assets/images/2018-01-11-human-mobility/definitions.jpg" alt="Figure 1: Definitions of the key concepts." caption="Figure 1: Definitions of the key concepts." %}
 
 ## The stop location algorithm explained
 
 Below we have pictured a fictional user's positions with associated timestamps. The user is moving from left to right starting at 8:24. Between 8:26 and 8:46 the user moves less than 50 meters in 20 minutes. Thus, the algorithm detects that the user has stopped. It picks the [medoid](https://en.wikipedia.org/wiki/Medoid) (in orange) of those three points as the stop location (8:36). The start and end-times of the stop location are 8:26 and 8:46 respectively.
 
-{% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/stoplocation_explanation.svg" alt="Figure 2: The stop detection algorithm explained." caption="Figure 2: The stop detection algorithm explained." %}
+{% include figure image_path="/assets/images/2018-01-11-human-mobility/stoplocation_explanation.svg" alt="Figure 2: The stop detection algorithm explained." caption="Figure 2: The stop detection algorithm explained." %}
 
 The algorithm has two parameters which are dependent on the application.
 
@@ -211,7 +211,7 @@ Congratulations! We have just successfully extracted 2557 stop locations from th
 fig_stops = plot_stops(df_stops.reset_index())
 plotly.offline.iplot(fig_stops, filename='fig_stops')
 ```
-![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_stops.jpg)
+![jpg](/assets/images/2018-01-11-human-mobility/fig_stops.jpg)
 
 Next, we will aggregate the stop locations into destinations.
 
@@ -225,10 +225,10 @@ Recall that we defined a [destination](#destination_definition) as the aggregati
 
 <a id='figure_3'></a>
 
-{% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/locationdestination.svg" alt="Figure 3: From stop locations to destinations." caption="Figure 3: From stop locations to destinations." %}
+{% include figure image_path="/assets/images/2018-01-11-human-mobility/locationdestination.svg" alt="Figure 3: From stop locations to destinations." caption="Figure 3: From stop locations to destinations." %}
 
 <figure class="right">
-    <img src="/assets/images/posts/2018-01-11-human-mobility/stop_locations.jpg"/> 
+    <img src="/assets/images/2018-01-11-human-mobility/stop_locations.jpg"/> 
 </figure>
 
 To appreciate why this is useful, let us have a look at the figure on the right where we have plotted some stop locations in orange (from a different dataset). The stop locations appear to form small clusters: one bigger cluster in proximity of *Building 7* on the left and two other clusters in proximity of *Building 1* and *Building 2* respectively. Finally, there are also two stop locations on *Malcolm Boulevard* at the bottom.
@@ -239,7 +239,7 @@ To aggregate the stop locations into destinations we use [Scipy's hierarchical c
 
 Figure 4 shows the difference between using a complete linkage method and a centroid linkage method using the same distance parameter. For our purpose complete linkage forms too many small clusters. In contrast, centroid linkage seems to be just right forming approximately one cluster for each building. Of course, these parameters will have to be set based on the application at hand.
 
-{% include figure image_path="/assets/images/posts/2018-01-11-human-mobility/destinations_composite.jpg" alt="Figure 4: A comparison of linkage methods for clustering GPS positions." caption="Figure 4: A comparison of linkage methods for clustering GPS positions." %}
+{% include figure image_path="/assets/images/2018-01-11-human-mobility/destinations_composite.jpg" alt="Figure 4: A comparison of linkage methods for clustering GPS positions." caption="Figure 4: A comparison of linkage methods for clustering GPS positions." %}
 
 ## Running the clustering algorithm on the stop locations data
 
@@ -309,7 +309,7 @@ fig_destinations = plot_destinations(df_destinations)
 plotly.offline.iplot(fig_destinations, filename='fig_destinations')
 ```
 
-![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_destinations.jpg)
+![jpg](/assets/images/2018-01-11-human-mobility/fig_destinations.jpg)
 
 On the map you can appreciate the main destinations on a per-user basis the colour intensity and the size indicate the visitation frequency (number of stop locations) at each destination.
 
@@ -351,7 +351,7 @@ fig_destinations_all = plot_destinations(
 plotly.offline.iplot(fig_destinations_all, filename='fig_destinations_all')
 ```
 
-![jpg](/assets/images/posts/2018-01-11-human-mobility/fig_destinations_all.jpg)
+![jpg](/assets/images/2018-01-11-human-mobility/fig_destinations_all.jpg)
 
 Well done! We now have plotted the most popular taxi destinations in Bejing based on visitation count. 
 
