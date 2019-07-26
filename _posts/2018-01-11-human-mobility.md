@@ -26,7 +26,7 @@ toc: false
 </style>
 
 <a id='beginning'></a>
-Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please click on the button below and run `Notebook for github latest edition.ipynb`. Alternatively, you can check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility).
+Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please click on the button below and run `Notebook for github latest edition.ipynb`. Alternatively, you can check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility). *26/09/2019 I am currently experiencing issues with the Binder demo. I will fix it ASAP, in the meantime I suggest you clone the repo if you would like to run the code.*
 {: .notice--info}
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sebastianbertoli/Github-internship_human_mobility/master)
 
