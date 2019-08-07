@@ -14,16 +14,16 @@ sidebar: true
 
 The CORAL demonstrator was developed in June 2018 at Fraunhofer Italy. I co-developed the machine learning module that learns a sorting task and sends the results to the Franka Emika roboter pictured.  Code samples are available upon request.
 
-[German Magazine Article](https://www.industrie40-management.de/node/275) | [Blog post](https://sebastianbertoli.github.io/blog/coral/)
+[German Magazine Article](https://www.industrie40-management.de/node/275), [Blog post](https://sebastianbertoli.github.io/blog/coral/).
 
 ## Extracting destinations from GPS data
 
 ![jpg](/assets/images/projects/readme_teaser.jpg)
 
 This project was carried out during my summer 2017 internship at the Bruno Kessler foundation. The goal was to implement a fast algorithm that could
-extract destinations (places where people stay) from GPS data. On the blog I have posted [a static demo]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %}) of the Jupyter Notebook. If you would like to run to explore the demo interactively please check out the repository.
+extract destinations (places where people stay) from GPS data. If you would like to run to explore the demo interactively please check out the GitHub repository.
 
-[GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility)
+[GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility), [Blog post]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %})
 
 ## Predictive maintenance for the manufacturing industry
 
