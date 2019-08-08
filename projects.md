@@ -34,7 +34,7 @@ gathering the data and running the machine learning experiments to writing up
 and presenting the results. Check out the GitHub repository for some code
 examples.
 
-[GitHub](https://github.com/sebastianbertoli-portfolio/premain-public)
+[GitHub](https://github.com/sebastianbertoli-portfolio/premain-public).
 
 ## Extracting destinations from GPS data
 
@@ -47,4 +47,4 @@ like to run to explore the demo interactively please check out the GitHub
 repository.
 
 [GitHub](https://github.com/sebastianbertoli/Github-internship_human_mobility), 
-[Blogpost]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %})
+[Blogpost]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %}).
