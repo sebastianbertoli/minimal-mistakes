@@ -14,8 +14,8 @@ sidebar: true
 
 The CORAL demonstrator was developed in June 2018 at Fraunhofer Italy. I
 co-developed the machine learning module that learns a sorting task and sends
-the results to the Franka Emika roboter pictured. Code samples are available
-upon request.
+the results to the Franka Emika roboter pictured. Check out the GitHub
+repository for some code examples.
 
 [GitHub](https://github.com/sebastianbertoli-portfolio/coral-public),
 [Video](/assets/videos/coral.gif),
@@ -31,7 +31,8 @@ As part of the EU-funded research project PreMain I conducted three feasibility
 studies where I analysed the potential of machine learning for doing predictive
 maintenance. I was responsible for all data science related tasks: from
 gathering the data and running the machine learning experiments to writing up
-and presenting the results. Code samples are available upon request.
+and presenting the results. Check out the GitHub repository for some code
+examples.
 
 [GitHub](https://github.com/sebastianbertoli-portfolio/premain-public)
 
