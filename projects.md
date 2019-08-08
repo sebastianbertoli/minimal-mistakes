@@ -19,9 +19,9 @@ upon request.
 
 [GitHub](https://github.com/sebastianbertoli-portfolio/coral-public),
 [Video](/assets/videos/coral.gif),
-[Magazine Article](https://www.industrie40-management.de/node/275), 
-[Book chapter](https://www.dropbox.com/s/e7au3qce7i1ktl5/Microsoft%20Word%20-%20Tagungsband_WGAB-2018_open-access_Druckdatei.pdf?dl=1),
-[Blogpost](https://sebastianbertoli.github.io/blog/coral/).
+[Magazine Article](/assets/documents/coral_magazine.pdf), 
+[Book chapter](/assets/documents/coral_bookchapter.pdf),
+[Blogpost]({{ site.baseurl }}{% post_url 2019-01-01-coral %}).
 
 ## Predictive maintenance for the manufacturing industry
 
