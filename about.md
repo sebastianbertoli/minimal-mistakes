@@ -2,7 +2,6 @@
 permalink: /about/
 title: ""
 excerpt: "Sebastian is an aspiring data scientist"
-last_modified_at: 2017-11-06T16:27:14-05:00
 layout: single
 ---
 
