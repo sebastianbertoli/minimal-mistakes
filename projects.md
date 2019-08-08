@@ -17,22 +17,22 @@ co-developed the machine learning module that learns a sorting task and sends
 the results to the Franka Emika roboter pictured. Code samples are available
 upon request.
 
-[GitHub Repository](https://github.com/sebastianbertoli-portfolio/coral-public),
-[Magazine Article (German)](https://www.industrie40-management.de/node/275), 
-[Book chapter (German)](https://www.dropbox.com/s/e7au3qce7i1ktl5/Microsoft%20Word%20-%20Tagungsband_WGAB-2018_open-access_Druckdatei.pdf?dl=1),
-[Blog post](https://sebastianbertoli.github.io/blog/coral/).
+[GitHub](https://github.com/sebastianbertoli-portfolio/coral-public),
+[Magazine Article](https://www.industrie40-management.de/node/275), 
+[Book chapter](https://www.dropbox.com/s/e7au3qce7i1ktl5/Microsoft%20Word%20-%20Tagungsband_WGAB-2018_open-access_Druckdatei.pdf?dl=1),
+[Blogpost](https://sebastianbertoli.github.io/blog/coral/).
 
 ## Predictive maintenance for the manufacturing industry
 
 ![jpg](/assets/images/projects/premain_teaser.jpg)
 
-As part of the EU-funded research project PreMain I conducted two feasibility
+As part of the EU-funded research project PreMain I conducted three feasibility
 studies where I analysed the potential of machine learning for doing predictive
 maintenance. I was responsible for all data science related tasks: from
 gathering the data and running the machine learning experiments to writing up
 and presenting the results. Code samples are available upon request.
 
-[GitHub Repository](https://github.com/sebastianbertoli-portfolio/premain-public)
+[GitHub](https://github.com/sebastianbertoli-portfolio/premain-public)
 
 ## Extracting destinations from GPS data
 
