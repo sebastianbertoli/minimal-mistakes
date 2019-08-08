@@ -44,5 +44,5 @@ extract destinations (places where people stay) from GPS data. If you would
 like to run to explore the demo interactively please check out the GitHub
 repository.
 
-[GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility), 
-[Blog post]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %})
+[GitHub](https://github.com/sebastianbertoli/Github-internship_human_mobility), 
+[Blogpost]({{ site.baseurl }}{% post_url 2018-01-11-human-mobility %})
