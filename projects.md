@@ -2,7 +2,6 @@
 permalink: /projects/
 title: ""
 excerpt: "A list o my current projects"
-last_modified_at: 2019-11-06T16:27:14-05:00
 layout: single
 sidebar: true
 ---
