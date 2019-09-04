@@ -16,7 +16,7 @@ co-developed the machine learning module that learns a sorting task and sends
 the results to the Franka Emika roboter pictured. Check out the GitHub
 repository for some code examples.
 
-[GitHub](https://github.com/sebastianbertoli-portfolio/coral-public),
+[GitHub](https://github.com/sebastianbertoli-portfolio/coral-summary),
 [Video](/assets/videos/coral.gif),
 [Magazine Article](/assets/documents/coral_magazine.pdf), 
 [Book chapter](/assets/documents/coral_bookchapter.pdf),
@@ -33,7 +33,7 @@ gathering the data and running the machine learning experiments to writing up
 and presenting the results. Check out the GitHub repository for some code
 examples.
 
-[GitHub](https://github.com/sebastianbertoli-portfolio/premain-public).
+[GitHub](https://github.com/sebastianbertoli-portfolio/premain-summary).
 
 ## Extracting destinations from GPS data
 
