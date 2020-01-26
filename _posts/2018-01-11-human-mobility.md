@@ -23,10 +23,11 @@ toc: false
 Note: This post is a static demonstration of the [destinations extraction project](/projects/). If you prefer running a Jupyter notebook please click on the button below and run `Notebook for github latest edition.ipynb`. Alternatively, you can check out the [GitHub repository](https://github.com/sebastianbertoli/Github-internship_human_mobility). 
 {: .notice--info}
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sebastianbertoli/Github-internship_human_mobility/master)
-
 ⚠ **Note**: I am currently experiencing issues with the Binder demo. I will fix it ASAP, in the meantime I suggest you clone the repo if you would like to run the code.
 {: .notice--warning}
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sebastianbertoli/Github-internship_human_mobility/master)
+
 # Introduction
 
 This notebook showcases some of the work completed during my 2017 summer internship at the [Bruno Kessler Foundation](https://www.fbk.eu/en/). My responsibility was to find and implement an efficient algorithm that could, using GPS data, tell us where people had stayed for a pre-determined amount of time. So-called stop locations.
